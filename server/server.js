@@ -8,6 +8,10 @@ const {typeDefs, resolvers} = require('./schema');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
+//new graphql server
+const server = new ApolloServer({
+  typeDefs, resolvers, context: authMiddleware,
+})
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
