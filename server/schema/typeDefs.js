@@ -26,6 +26,13 @@ const typeDefs = gql`
     type Query {
         me: User
     }
+
+    type Mutation {
+        login(email, password): Auth
+        addUser(username, email, password): Auth
+        saveBook(Book*probably not how this works, check later*): User
+        
+    }
 `;
 
 
