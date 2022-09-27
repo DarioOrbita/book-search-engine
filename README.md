@@ -4,7 +4,7 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-20A7FF.svg)
 
 ## **Description**
-
+A basic book search engine using the Google Books API, refactored to use GraphQL and Apollo server.
 
 ### [Click to View Application](https://shielded-ocean-93603.herokuapp.com/)
 
@@ -19,6 +19,7 @@
   + Express
   + React
   + Node
+  + Apollo Server
 
 
 <br/>
